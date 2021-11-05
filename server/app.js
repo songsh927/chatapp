@@ -4,7 +4,7 @@ import loginRouter from './router/route.js';
 import {initSocket} from './chat.js';
 
 
-const __dirname = '/Users/송승현/Desktop/Chatpage_project';
+const __dirname = '#';
 const app = express();
 
 app.use(express.json());
