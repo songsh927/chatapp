@@ -2,7 +2,7 @@ import express, { application } from 'express'
 import 'express-async-errors'
 
 const router = express.Router();
-const __dirname = '/Users/송승현/Desktop/Chatpage_project';
+const __dirname = '#';
 const app = express();
 
 const users = [
