@@ -3,7 +3,7 @@ import {Server} from 'socket.io';
 
 const router = express.Router();
 const app = express();
-const __dirname = '/Users/송승현/Desktop/Chatpage_project';
+const __dirname = '#';
 
 router.get('/chatting', (req, res) => {
 		res.sendFile(__dirname + '/html/chatIndex.html');
