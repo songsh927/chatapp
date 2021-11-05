@@ -5,7 +5,7 @@ import {Server} from 'socket.io';
 const app = express();
 
 app.get('/', function(req, res){
-		res.sendFile('/home/song/NODE/chatapp/index.html');
+		res.sendFile('##');
 		});
 
 const server = app.listen(3000);
